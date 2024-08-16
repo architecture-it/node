@@ -15,3 +15,9 @@ Contains authentication for follow scopes (organizations) in npm local:
 ## Correr en local
 
 `docker build . -t react-andreani --build-arg token=<TUTOKEN> --build-arg fontawesome=<TOKEN_FONTAWESOME>`
+
+# Use
+
+```bash
+FROM ghcr.io/architecture-it/node:latest AS example
+```
