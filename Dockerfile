@@ -11,6 +11,7 @@ RUN echo -e "\
 @customer-experience:registry=https://npm.pkg.github.com/ \n\
 @architecture-it:registry=https://npm.pkg.github.com/ \n\
 @operations-innovations:registry=https://npm.pkg.github.com/ \n\
+@witwot-jms:registry=https://npm.pkg.github.com/ \n\
 //npm.pkg.github.com/:_authToken=${NPM_TOKEN} \n\
 @fortawesome:registry=https://npm.fontawesome.com/ \n\
 //npm.fontawesome.com/:_authToken=${NPM_FONTAWESOME_TOKEN}" >> $HOME/.npmrc
